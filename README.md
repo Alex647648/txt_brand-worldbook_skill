@@ -446,9 +446,18 @@ This repository contains the **initial full draft** of the skill architecture, i
 
 It is intended for review and iteration.
 
-Next likely improvements:
+### Important note
+The skill itself is **still on the current v1 draft**.
+A structured optimization proposal has been documented, but **has not been applied to the skill yet**.
+
+See:
+- `OPTIMIZATION_PLAN.md`
+
+Current recommended next-step improvements include:
 - example outputs
 - eval prompts
 - anti-pattern examples
 - more specialized style branches
+- stronger branch routing logic
 - stronger per-page writing templates
+- a brand archetype layer before style routing
